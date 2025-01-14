@@ -10,7 +10,6 @@ import ast
 import random
 from litellm import completion
 
-
 def encode_image(image_path):
     if image_path.startswith("http"):
         return image_path
